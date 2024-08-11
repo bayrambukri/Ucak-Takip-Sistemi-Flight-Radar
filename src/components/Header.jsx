@@ -8,10 +8,9 @@ const Header = () => {
   return (
     <header>
       <div>
-        <img src="/unnamed.png" className="resim"/>
+        <img src="/unnamed.png" className="resim" />
         <h3>Uçuş Radarı</h3>
       </div>
-
       {isLoading ? (
         <p>Hesaplanıyor...</p>
       ) : error ? (
